@@ -98,6 +98,60 @@ with app.app_context():
                 },
             ]
         },
+        {
+            'key': 'vip_type',
+            'name': 'VIP类型',
+            'order': 3,
+            'prefix': '',
+            'scope': 'maintainer',
+            'selections': [
+                {
+                    'id': '招聘',
+                    'name': '招聘',
+                },
+                {
+                    'id': '房产',
+                    'name': '房产'
+                },
+                {
+                    'id': '车辆',
+                    'name': '车辆',
+                },
+                {
+                    'id': '服务',
+                    'name': '服务',
+                },
+                {
+                    'id': '兼职',
+                    'name': '兼职',
+                },
+                {
+                    'id': '宠物',
+                    'name': '宠物',
+                },
+            ]
+        },
+        {
+            'key': 'channel_type',
+            'name': '所属渠道',
+            'order': 4,
+            'prefix': '',
+            'scope': 'maintainer',
+            'selections': [
+                {
+                    'id': '1',
+                    'name': '代理商',
+                },
+                {
+                    'id': '2',
+                    'name': '销售部'
+                },
+                {
+                    'id': '3',
+                    'name': '其他',
+                },
+            ]
+        },
     ]
 
     _item_fields = ['key', 'name', 'order', 'prefix', 'scope', 'selections',]
